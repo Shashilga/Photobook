@@ -1,0 +1,228 @@
+/*welcome page css*/
+body{
+	box-sizing: border-box;
+	font-family: monospace;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: initial;
+}
+.nav{
+	position: static;
+	height: 4em;
+	background: linear-gradient(4deg, #8a8a8a, #fff, #8a8a8a);
+	font-size: 2em;
+}
+.nav .image-holder{
+	position: absolute;
+	top: .7em;
+	left: 6em;
+}
+.nav .image-holder img{
+	height: 2.5em;
+	width: 2.5em;
+	border-radius: 2em;
+}
+.nav label{
+	position: relative;
+	text-shadow: 1px 1px #333aaa;
+	margin: 2em;
+	top: 1.3em;
+	left: 7em;
+}
+.nav .menu{
+	position: relative;
+	text-align: right;
+	margin: .3em;
+	right: 4em;
+}
+.nav .menu span{
+	text-shadow: 1px 1px #fff;
+	margin: 1.7em;
+	top: .5em;
+	cursor: pointer;
+}
+.nav .menu span:hover, #menu{
+	padding: .3em;
+	background: linear-gradient(120deg, #8a8a8a, #333aaa, #8a8a8a);
+	border-radius: 2em;
+
+}
+.demo{
+	min-height: 86.8vh;
+	background: linear-gradient(180deg, #fff, #fff, #8a8a8a);
+}
+.b-demo{
+	position: relative;
+	text-align: center;
+	padding: .4em;
+}
+.b-demo h1{
+	font-size: 3.4em;
+	line-height: 4em;
+	text-shadow: 2px 2px 2px #333aaa;
+}
+.b-demo h1:hover{
+	box-shadow: 0px 1px 0px #333aaa;
+	cursor: no-drop;
+}
+.b-demo p{
+	font-size: 2em;
+}
+.b-demo label{
+	line-height: 8em;
+	font-size: 2.5em;
+	background: #8a8a8a;
+	text-shadow: 1px 1px #fff;
+	padding: .3em;
+	border-radius: 2em;
+}
+.b-demo label:hover{
+	background: linear-gradient(120deg, #8a8a8a, #333aaa);
+	cursor: pointer;
+	box-shadow: 2px 2px 2px #fff;
+}
+
+/*contact us css*/
+.container{
+	
+}
+.container .heading{
+	text-align: center;
+	font-style: calibri;
+	font-size: 3.4em;
+	text-shadow: 2px 2px 2px #333aaa;
+}
+.form-container{
+	width: 100%;
+	height: 72.7vh;
+	background: linear-gradient(180deg, #fff, #fff, #8a8a8a);
+}
+.form-container form{
+	width: 40%;
+	margin: auto;
+	padding: .2em;
+}
+.form-container .inputs #c-inputs{
+	display: block;
+	font-size: 2em;
+	margin: .4em;
+	width: 100%;
+	background: none;
+	border: none;
+}
+.form-container .inputs input, textarea{
+	box-shadow: 0px .5px .5px 0px #333aaa;
+}
+.form-container button{
+	font-size: 2em;
+	background: #8a8a8a;
+	text-shadow: 1px 1px #fff;
+	border-radius: 2em;
+	margin: .2em;
+	margin-left: 16em;
+}
+.form-container button:hover{
+	background: linear-gradient(120deg, #8a8a8a, #333aaa);
+	cursor: pointer;
+	box-shadow: 2px 2px 2px #fff;
+}
+/* About us css*/
+.wrapper{
+	background: linear-gradient(180deg, #fff, #fff, #8a8a8a);
+}
+.wrapper #a-heading{
+	text-align: center;
+	font-style: monospace;
+	font-size: 3.4em;
+	text-shadow: 2px 2px 2px #333aaa;
+}
+.content{
+	width: 100%;
+	display: flex;
+	background: linear-gradient(180deg, #fff, #fff, #8a8a8a);
+	height: 72.7vh;
+}
+.content #a-text-l{
+	font-size: 3em;
+	margin: 1em;
+	text-shadow: 2px 2px 2px #333aaa;
+}
+.content #a-text{
+	font-size: 1.4em;
+	margin: 1.9em;
+}
+.content .in-content, .a-img{
+	width: 47%;
+	margin: 2em;
+}
+.content .a-img img{
+	border-radius: 50%;
+}
+/*footer*/
+.footer{
+	left: 26em;
+	font-size: 2em;
+	text-shadow: 2px 2px 2px #333aaa;
+	position: absolute;
+	bottom: 0;
+}
+/*photo gallary css */
+.big-div{
+	display: block;
+}
+.big-div #p-label{
+	font-family: calibri;
+	font-size: 2em;
+	text-shadow: 2px 2px 2px #333aaa;
+	margin-left: 19em;
+	margin-top: 2em;
+}
+.big-div .under-label{
+	background: #333aaa;
+	width: 6%;
+	height: .3em;
+	margin: auto;
+	margin-left: 44.5%;
+	margin-bottom: 2em;
+}
+.big-div .in-big-div{
+	width: 100%;
+	display: flex;
+	height: 39%;
+}
+.big-div .in-big-div .card{
+	min-height: 98%;
+	width: 23%;
+	box-shadow: 1px 4px 8px 2px #333;
+	display: block;
+	margin: 1.4em;
+	padding: 1em;
+	border-radius: 2em;
+}
+.big-div .in-big-div .card .photo-div{
+	height: 59%;
+	width: 50%;
+	margin-left: 14.3%;
+}
+.big-div .in-big-div .card .photo-div img{
+	border-radius: 2em;
+	height: 14em;
+	width: 14em;
+}
+.big-div .in-big-div .card .text-div{
+	font-size: 1.2em;
+	padding: .4em;
+	text-align: center;
+	margin-left: 3.3%;
+}
+.big-div .in-big-div .card .text-div #n-label{
+	font-size: 1.2em;
+	font-family: calibri;
+	text-shadow: 2px 1px 1px #333aaa;
+	line-height: 2em;
+}
+.big-div .in-big-div .card .text-div #nn-label{
+	display: block;
+}
